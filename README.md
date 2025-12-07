@@ -88,5 +88,49 @@ Deployment steps included:
 - Uploading all files to GitHub  
 - Deploying the app through Streamlit Cloud  
 
-This deployment shows how machine learning models can b
+This deployment shows how machine learning models can be turned into real, interactive application.
+
+
+---
+
+## Repository Structure
+customer-churn-prediction/
+│
+├── app/
+│ └── streamlit_app.py
+│
+├── data/
+│ └── telco_churn.csv
+│
+├── models/
+│ └── churn_logreg_pipeline.pkl
+│
+├── notebooks/
+│ └── churn_analysis.ipynb
+│
+├── requirements.txt
+└── README.md
+
+## How to Run the Project Locally
+
+1. Clone the repository  
+2. Install the required dependencies  
+3. Launch the Streamlit app  
+
+Commands:
+
+git clone https://github.com/USERNAME/customer-churn-prediction.git
+
+pip install -r requirements.txt
+streamlit run app/streamlit_app.py
+
+
+---
+
+## Group Reflection
+
+Through this project, the group gained experience with a full machine-learning workflow. This included handling real-world data challenges, exploring feature relationships, testing multiple models, and deploying a working application.  
+The project strengthened our understanding of practical data science, collaboration, and model deployment.
+
+
 
