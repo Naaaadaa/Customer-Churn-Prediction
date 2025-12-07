@@ -119,7 +119,7 @@ customer-churn-prediction/
 
 Commands:
 
-git clone https://github.com/USERNAME/customer-churn-prediction.git
+git clone https://github.com/Naaaadaa/customer-churn-prediction.git
 
 pip install -r requirements.txt
 streamlit run app/streamlit_app.py
