@@ -2,14 +2,14 @@
 
 This project focuses on predicting whether a telecom customer is likely to churn using the Telco Customer Churn dataset from Kaggle. Our group worked collaboratively through an end-to-end machine learning pipeline, including data cleaning, exploratory analysis, model building, evaluation, and deployment. The aim was to understand the key factors that influence churn and to develop a model that can accurately identify customers who are at risk of leaving the service.
 
----
+
 
 ## Project Overview
 
 Customer churn is a major challenge for telecom companies because losing customers directly impacts revenue. By predicting churn in advance, companies can take steps to retain high-risk customers.  
 In this project, the team explored the dataset, engineered features, trained multiple machine-learning models, evaluated their performance, and deployed the best model using Streamlit Cloud.
 
----
+
 
 ## Dataset
 
@@ -22,7 +22,7 @@ Key features include:
 - Services subscribed (internet, phone, security options)  
 - Demographic information  
 
----
+
 
 ## Data Cleaning and Preprocessing
 
@@ -36,7 +36,7 @@ As a group, we performed the following steps to ensure data quality:
 
 These steps prepared the dataset for accurate and consistent model training.
 
----
+
 
 ## Exploratory Data Analysis
 
@@ -50,7 +50,7 @@ Key findings include:
 
 Visualisations such as histograms, boxplots, and correlation charts supported these observations.
 
----
+
 
 ## Models Trained
 
@@ -68,13 +68,13 @@ Each model was evaluated using:
 - F1-score  
 - Confusion Matrix  
 
----
+
 
 ## Model Performance Summary
 
 Among all models tested, **Logistic Regression** provided the strongest overall performance. It achieved the best balance between recall and F1-score, making it the most effective at identifying true churners. Random Forest and Gradient Boosting performed reasonably well but did not surpass Logistic Regression for this dataset.
 
----
+
 
 ## Deployment
 
